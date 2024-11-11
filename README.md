@@ -1,1 +1,0 @@
-# Vitaliy_Khakimov_AT_G11
