@@ -1,10 +1,26 @@
 package bubbles;
 
 public class Bubble {
-    double volume = 0.3;
-    String type;
+    private final double VOLUME = 0.3;
+    private String type;
 
-    public void burst() {
+    public Bubble(String type) {
+        this.type = type;
+    }
+
+    public double getVOLUME() {
+        return VOLUME;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void cramp() {
         System.out.println("Cramp");
     }
 }
