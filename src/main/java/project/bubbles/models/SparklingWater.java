@@ -18,6 +18,7 @@ public class SparklingWater extends Water {
         }
 
         this.bubbles = bubbleArrayList.toArray(new Bubble[0]);
+        System.out.println("Pumping completed.");
     }
 
     public void degas() {
@@ -31,7 +32,7 @@ public class SparklingWater extends Water {
         System.out.println("Degas completed.");
     }
 
-    public void printBubbles() {
+    public void bubblesCount() {
         System.out.println("Bubbles in SparklingWater: " + bubbles.length);
     }
 }
