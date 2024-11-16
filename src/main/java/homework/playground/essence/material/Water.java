@@ -1,4 +1,9 @@
 package homework.playground.essence.material;
 
-public class Water {
+import homework.playground.essence.Matter;
+
+public class Water extends Matter {
+    public Water(int mass) {
+        super(mass);
+    }
 }

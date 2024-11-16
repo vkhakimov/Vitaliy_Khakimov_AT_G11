@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task" />
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Matter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Matter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/AirTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/AirTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Beetle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Beetle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Plant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Vertebrata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Vertebrata.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +49,7 @@
     "Application.Runner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "task__1",
+    "git-widget-placeholder": "task__2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
@@ -84,6 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.ArrayTask" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.ArrayTask" />
         <item itemvalue="Application.Runner" />
       </list>
@@ -154,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731373322397</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Bubbles task">
+      <option name="closed" value="true" />
+      <created>1731727331354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731727331354</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
