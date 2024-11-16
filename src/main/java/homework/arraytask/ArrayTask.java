@@ -38,9 +38,33 @@ public class ArrayTask {
         }
     }
 
+    public static void sumMultOfFirstDigitLength(int[] arr) {
+        int firstD = Integer.parseInt(String.valueOf(Integer.toString(arr.length).charAt(0)));
+        int sum = 0;
+
+        for (int i : arr) {
+            if (i % firstD == 0) {
+                sum += i;
+            }
+        }
+
+        System.out.println("The sum of the first elements that are divisible without remainder by the first digit of the array length: " + sum);
+    }
+
+    public static void draw() {
+        System.out.println("   ^__^");
+        System.out.println("   (oo)\\_______");
+        System.out.println("  (__)\\ ) \\/\\  \\");
+        System.out.println("       ||----w |\\");
+        System.out.println("       ||     ||");
+    }
+
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         sumOfNElements(arr, 2);
         elementsGreaterThanN(arr, 2);
+        System.out.println();
+        sumMultOfFirstDigitLength(arr);
+        draw();
     }
 }
