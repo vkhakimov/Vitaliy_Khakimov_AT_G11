@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Matter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/AirTransport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/Copter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/Plain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/Rocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Moped.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Motorbike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Bottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Mug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Beetle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Carrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Chamomile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Crocodile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Flower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Fly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Insect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Maylily.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Mosquito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Pigeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Plant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Potato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Radish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Raven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Rose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Vegetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Vertebrata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +39,7 @@
     "Application.Runner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "task__1",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
