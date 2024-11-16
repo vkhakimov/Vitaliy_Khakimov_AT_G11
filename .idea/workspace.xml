@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task" />
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Flayable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/Rideable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/Transportable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Storable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Crawlable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/AirTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/AirTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Beetle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Beetle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Crocodile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Crocodile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Fly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Fly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Mosquito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Mosquito.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,7 +54,7 @@
     "Application.Runner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "task__2",
+    "git-widget-placeholder": "task__3",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
