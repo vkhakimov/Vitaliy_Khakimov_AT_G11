@@ -39,7 +39,7 @@
     "Application.Runner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "task__1",
+    "git-widget-placeholder": "task__2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
@@ -84,6 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.ArrayTask" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.ArrayTask" />
         <item itemvalue="Application.Runner" />
       </list>
@@ -154,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731373322397</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Bubbles task">
+      <option name="closed" value="true" />
+      <created>1731727331354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731727331354</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add Bubbles task">
+      <option name="closed" value="true" />
+      <created>1731729416851</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731729416851</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

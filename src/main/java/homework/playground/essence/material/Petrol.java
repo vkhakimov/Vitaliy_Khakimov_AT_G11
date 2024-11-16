@@ -1,4 +1,9 @@
 package homework.playground.essence.material;
 
-public class Petrol {
+import homework.playground.essence.Matter;
+
+public class Petrol extends Matter {
+    public Petrol(int mass) {
+        super(mass);
+    }
 }
