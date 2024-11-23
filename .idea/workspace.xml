@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTwoParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTwoParamsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
