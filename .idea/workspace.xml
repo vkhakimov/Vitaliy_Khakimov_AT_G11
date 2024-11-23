@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Flayable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/Rideable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/Transportable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Storable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Crawlable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day6/GenericContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day6/GenericContainerRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day6/ObjectContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day6/ObjectContainerRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/CharsInColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/FindNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/FormatDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/ParseLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/PrintCurrentDateTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/StringObjectRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/StringStaticRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/StringTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/WordsDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/AirTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/AirTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/hand/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Beetle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Beetle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Crocodile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Crocodile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Fly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Fly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Mosquito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Mosquito.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,10 +52,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayTask.executor": "Run",
+    "Application.GenericContainerRunner.executor": "Run",
     "Application.Runner.executor": "Run",
+    "Application.StringObjectRunner.executor": "Run",
+    "Application.StringStaticRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "task__3",
+    "git-widget-placeholder": "day__5__task__strings__dates",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
@@ -70,13 +74,26 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayTask">
+  <component name="RunManager" selected="Application.StringStaticRunner">
     <configuration name="ArrayTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.arraytask.ArrayTask" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homework.arraytask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericContainerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day6.GenericContainerRunner" />
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,13 +114,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringObjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.day5.StringObjectRunner" />
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringStaticRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.day5.StringStaticRunner" />
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringStaticRunner" />
+        <item itemvalue="Application.StringObjectRunner" />
+        <item itemvalue="Application.GenericContainerRunner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.ArrayTask" />
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.ArrayTask" />
-        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731729416851</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Bubbles task">
+      <option name="closed" value="true" />
+      <created>1731730189964</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731730189964</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
