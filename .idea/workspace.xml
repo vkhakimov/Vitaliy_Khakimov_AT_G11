@@ -8,6 +8,10 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/processors/TransportableProcessor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/runners/TransportableProcessorRunner.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/utils/CoordinatesGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day7/ArrayListTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day7/ArrayListTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day7/ArrayListTask3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day7/HashMapTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Flyable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/Transportable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/Transportable.java" afterDir="false" />
@@ -30,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="classwork_day7" />
+        <entry key="$PROJECT_DIR$" value="hometask_day6_generictask" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,11 +49,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListTask.executor": "Run",
+    "Application.ArrayListTask2.executor": "Run",
+    "Application.ArrayListTask3.executor": "Run",
     "Application.ArrayTask.executor": "Run",
     "Application.FlyableProcessorRunner.executor": "Run",
     "Application.GenericContainerRunner.executor": "Run",
     "Application.GenericMethodsInGenericClassTRunner.executor": "Run",
     "Application.GenericMethodsInGenericClassTwoParamsRunner.executor": "Run",
+    "Application.ArrayTask2.executor": "Run",
+    "Application.GenericContainerRunner.executor": "Run",
+    "Application.HashMapTask.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.StringObjectRunner.executor": "Run",
     "Application.StringStaticRunner.executor": "Run",
@@ -117,7 +127,7 @@
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.day5.*" />
+          <option name="PATTERN" value="classwork.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
