@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/processors/FlyableProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/runners/FlyableProcessorRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/utils/DirectionGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/processors/TransportableProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/runners/TransportableProcessorRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/utils/CoordinatesGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTwoParamsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTwoParamsRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Flayable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Flyable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/Flyable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/Transportable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/Transportable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/AirTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/AirTransport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/Copter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/Copter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/Plain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/air/Rocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Fly.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Fly.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Mosquito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/creatures/Mosquito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/playground/essence/craft/ground/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +53,7 @@
     "Application.Runner.executor": "Run",
     "Application.StringObjectRunner.executor": "Run",
     "Application.StringStaticRunner.executor": "Run",
+    "Application.TransportableProcessorRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "hometask__day6__generictask",
@@ -76,7 +72,7 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyableProcessorRunner">
+  <component name="RunManager" selected="Application.TransportableProcessorRunner">
     <configuration name="FlyableProcessorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.playground.essence.runners.FlyableProcessorRunner" />
       <module name="Vitaliy_Khakimov_AT_G11" />
@@ -116,19 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringObjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.day5.StringObjectRunner" />
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.day5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringStaticRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.day5.StringStaticRunner" />
       <module name="Vitaliy_Khakimov_AT_G11" />
@@ -142,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransportableProcessorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.playground.essence.runners.TransportableProcessorRunner" />
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.playground.essence.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransportableProcessorRunner" />
         <item itemvalue="Application.FlyableProcessorRunner" />
         <item itemvalue="Application.GenericMethodsInGenericClassTwoParamsRunner" />
         <item itemvalue="Application.GenericMethodsInGenericClassTRunner" />
         <item itemvalue="Application.StringStaticRunner" />
-        <item itemvalue="Application.StringObjectRunner" />
       </list>
     </recent_temporary>
   </component>

@@ -19,4 +19,10 @@ public abstract class AirTransport extends Matter implements Flyable, Transporta
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public int move(int pointA, int pointB) {
+        System.out.println("I am " + this.getClass().getSimpleName() + ", my name is " + this.getName() + " and I am moving from " + pointA + " to " + pointB);
+        return pointB - pointA;
+    }
 }

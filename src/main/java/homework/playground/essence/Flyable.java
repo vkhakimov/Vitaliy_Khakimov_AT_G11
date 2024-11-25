@@ -1,5 +1,5 @@
 package homework.playground.essence;
 
 public interface Flyable {
-    public void fly(String direction);
+    void fly(String direction);
 }
