@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTwoParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTwoParamsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTwoParamsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/day6/GenericMethodsInGenericClassTwoParamsRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="classwork_day7" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +42,7 @@
     "Application.ArrayTask.executor": "Run",
     "Application.GenericContainerRunner.executor": "Run",
     "Application.GenericMethodsInGenericClassTRunner.executor": "Run",
+    "Application.GenericMethodsInGenericClassTwoParamsRunner.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.StringObjectRunner.executor": "Run",
     "Application.StringStaticRunner.executor": "Run",
@@ -65,13 +64,13 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericMethodsInGenericClassTRunner">
-    <configuration name="GenericContainerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.day6.GenericContainerRunner" />
+  <component name="RunManager" selected="Application.GenericMethodsInGenericClassTwoParamsRunner">
+    <configuration name="GenericMethodsInGenericClassTRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.day6.GenericMethodsInGenericClassTRunner" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.day6.*" />
+          <option name="PATTERN" value="homework.day6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethodsInGenericClassTRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.day6.GenericMethodsInGenericClassTRunner" />
+    <configuration name="GenericMethodsInGenericClassTwoParamsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.day6.GenericMethodsInGenericClassTwoParamsRunner" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
@@ -133,10 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericMethodsInGenericClassTwoParamsRunner" />
         <item itemvalue="Application.GenericMethodsInGenericClassTRunner" />
         <item itemvalue="Application.StringStaticRunner" />
         <item itemvalue="Application.StringObjectRunner" />
-        <item itemvalue="Application.GenericContainerRunner" />
         <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>

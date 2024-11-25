@@ -24,44 +24,67 @@ public class GenericMethodsInGenericClassTwoParamsRunner {
         GenericMethodsInGenericClassTwoParams<String, Integer> stringIntegerGeneric = new GenericMethodsInGenericClassTwoParams<>();
         GenericMethodsInGenericClassTwoParams<String, Double> stringDoubleGeneric = new GenericMethodsInGenericClassTwoParams<>();
 
-        GenericMethodsInGenericClassT<AirTransport> airTransportGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Copter> copterGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Plain> plainGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Rocket> rocketGeneric = new GenericMethodsInGenericClassT<>();
+        GenericMethodsInGenericClassTwoParams<AirTransport, Vehicle> airTransportVehicleGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Copter, Plain> copterPlainGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Rocket, Copter> rocketCopterGeneric = new GenericMethodsInGenericClassTwoParams<>();
 
-        GenericMethodsInGenericClassT<Car> carGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Moped> mopedGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Motorbike> motorbikeGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Vehicle> vehicleGeneric = new GenericMethodsInGenericClassT<>();
+        GenericMethodsInGenericClassTwoParams<Car, Moped> carMopedGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Motorbike, Moped> motorbikeMopedGeneric = new GenericMethodsInGenericClassTwoParams<>();
 
-        GenericMethodsInGenericClassT<Bottle> bottleGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Can> canGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Container> containerGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Mug> mugGeneric = new GenericMethodsInGenericClassT<>();
+        GenericMethodsInGenericClassTwoParams<Container, Vehicle> containerGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Bottle, Can> bottleCanGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Mug, Can> mugCanGeneric = new GenericMethodsInGenericClassTwoParams<>();
 
-        GenericMethodsInGenericClassT<Animal> animalGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Beetle> beetleGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Carrot> carrotGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Chamomile> chamomileGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Crocodile> crocodileGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Flower> flowerGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Fly> flyGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Insect> insectGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Maylily> maylilyGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Mosquito> mosquitoGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Pigeon> pigeonGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Plant> plantGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Potato> potatoGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Radish> radishGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Raven> ravenGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Rose> roseGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Vegetable> vegetableGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Vertebrata> vertebrataGeneric = new GenericMethodsInGenericClassT<>();
+        GenericMethodsInGenericClassTwoParams<Animal, Vehicle> animalVehicleGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Plant, Animal> plantAnimalGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Flower, Insect> flowerInsectGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Rose, Chamomile> roseChamomileGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Beetle, Fly> beetleFlyGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Carrot, Potato> carrotPotatoGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Crocodile, Maylily> crocodileMaylilyGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Mosquito, Pigeon> mosquitoPigeonGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Radish, Raven> radishRavenGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Vegetable, Vertebrata> vegetableVertebrataGeneric = new GenericMethodsInGenericClassTwoParams<>();
 
-        GenericMethodsInGenericClassT<Diesel> dieselGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Petrol> petrolGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Water> waterGeneric = new GenericMethodsInGenericClassT<>();
+        GenericMethodsInGenericClassTwoParams<Diesel, Petrol> dieselPetrolGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Petrol, Water> petrolWaterGeneric = new GenericMethodsInGenericClassTwoParams<>();
 
-        GenericMethodsInGenericClassT<Matter> matterGeneric = new GenericMethodsInGenericClassT<>();
+        GenericMethodsInGenericClassTwoParams<Matter, Animal> matterAnimalGeneric = new GenericMethodsInGenericClassTwoParams<>();
+
+        String str = "Hello world!";
+        Integer intgr = 13;
+        Double dbl = 5.16;
+        System.out.println("--- String Generic ---");
+        System.out.println(stringGeneric.genericMethodGenArgs(str));
+        System.out.println(stringGeneric.genericMethodGenArgs(str, str));
+        stringGeneric.genericMethodHalfGenArgs(str, "Test String 1");
+        stringGeneric.genericMethodHalfGenArgs(str, "Test String 2", "Test String 3");
+
+        System.out.println("--- String Integer Generic ---");
+        System.out.println(stringIntegerGeneric.genericMethodGenArgs(str));
+        System.out.println(stringIntegerGeneric.genericMethodGenArgs(str, intgr));
+        stringIntegerGeneric.genericMethodHalfGenArgs(str, "Test String 1");
+        stringIntegerGeneric.genericMethodHalfGenArgs(str, intgr, "Test String 3");
+
+        System.out.println("--- String Double Generic ---");
+        System.out.println(stringDoubleGeneric.genericMethodGenArgs(str));
+        System.out.println(stringDoubleGeneric.genericMethodGenArgs(str, dbl));
+        stringDoubleGeneric.genericMethodHalfGenArgs(str, "Test String 1");
+        stringDoubleGeneric.genericMethodHalfGenArgs(str, dbl, "Test String 3");
+
+        Copter copter = new Copter(1, "a123");
+        Plain plain = new Plain(1, "312adas");
+        Rocket rocket = new Rocket(1, "123sdqw");
+        System.out.println("--- Copter Plain Generic ---");
+        System.out.println(copterPlainGeneric.genericMethodGenArgs(copter));
+        System.out.println(copterPlainGeneric.genericMethodGenArgs(copter, plain));
+        copterPlainGeneric.genericMethodHalfGenArgs(copter, "Test String 1");
+        copterPlainGeneric.genericMethodHalfGenArgs(copter, plain, "Test String 3");
+
+        System.out.println("--- Rocket Copter Generic ---");
+        System.out.println(rocketCopterGeneric.genericMethodGenArgs(rocket));
+        System.out.println(rocketCopterGeneric.genericMethodGenArgs(rocket, copter));
+        rocketCopterGeneric.genericMethodHalfGenArgs(rocket, "Test String 1");
+        rocketCopterGeneric.genericMethodHalfGenArgs(rocket, copter, "Test String 3");
     }
 }
