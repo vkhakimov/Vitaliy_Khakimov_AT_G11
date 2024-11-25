@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add Bubbles task">
-      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day6/GenericContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day6/GenericContainerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day6/ObjectContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day6/ObjectContainerRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/CharsInColumn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/FindNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/FormatDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/ParseLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/PrintCurrentDateTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/StringObjectRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/StringStaticRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/StringTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/day5/WordsDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day7/ArrayListTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day7/ArrayListTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day7/ArrayListTask3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classwork/day7/HashMapTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="hometask_day6_generictask" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,14 +42,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayListTask.executor": "Run",
+    "Application.ArrayListTask2.executor": "Run",
+    "Application.ArrayListTask3.executor": "Run",
     "Application.ArrayTask.executor": "Run",
+    "Application.ArrayTask2.executor": "Run",
     "Application.GenericContainerRunner.executor": "Run",
+    "Application.HashMapTask.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.StringObjectRunner.executor": "Run",
     "Application.StringStaticRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "day__5__task__strings__dates",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
@@ -74,13 +70,13 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringStaticRunner">
-    <configuration name="ArrayTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.arraytask.ArrayTask" />
+  <component name="RunManager" selected="Application.ArrayListTask3">
+    <configuration name="ArrayListTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day7.ArrayListTask" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.arraytask.*" />
+          <option name="PATTERN" value="classwork.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericContainerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.day6.GenericContainerRunner" />
+    <configuration name="ArrayListTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day7.ArrayListTask2" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.day6.*" />
+          <option name="PATTERN" value="classwork.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="project.bubbles.runners.Runner" />
+    <configuration name="ArrayListTask3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day7.ArrayListTask3" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="project.bubbles.models.*" />
+          <option name="PATTERN" value="classwork.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringObjectRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.day5.StringObjectRunner" />
+    <configuration name="HashMapTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day7.HashMapTask" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.day5.*" />
+          <option name="PATTERN" value="classwork.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListTask3" />
+        <item itemvalue="Application.HashMapTask" />
+        <item itemvalue="Application.ArrayListTask2" />
+        <item itemvalue="Application.ArrayListTask" />
         <item itemvalue="Application.StringStaticRunner" />
-        <item itemvalue="Application.StringObjectRunner" />
-        <item itemvalue="Application.GenericContainerRunner" />
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.ArrayTask" />
       </list>
     </recent_temporary>
   </component>
