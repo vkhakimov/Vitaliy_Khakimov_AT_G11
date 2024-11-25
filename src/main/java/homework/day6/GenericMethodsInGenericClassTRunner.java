@@ -1,7 +1,7 @@
 package homework.day6;
 
 import homework.playground.essence.craft.air.Copter;
-import homework.playground.essence.craft.air.Plain;
+import homework.playground.essence.craft.air.Plane;
 import homework.playground.essence.craft.air.Rocket;
 import homework.playground.essence.craft.ground.Car;
 import homework.playground.essence.craft.ground.Moped;
@@ -21,7 +21,7 @@ public class GenericMethodsInGenericClassTRunner {
         GenericMethodsInGenericClassT<Double> doubleGeneric = new GenericMethodsInGenericClassT<>();
 
         GenericMethodsInGenericClassT<Copter> copterGeneric = new GenericMethodsInGenericClassT<>();
-        GenericMethodsInGenericClassT<Plain> plainGeneric = new GenericMethodsInGenericClassT<>();
+        GenericMethodsInGenericClassT<Plane> plainGeneric = new GenericMethodsInGenericClassT<>();
         GenericMethodsInGenericClassT<Rocket> rocketGeneric = new GenericMethodsInGenericClassT<>();
 
         GenericMethodsInGenericClassT<Car> carGeneric = new GenericMethodsInGenericClassT<>();
@@ -75,9 +75,9 @@ public class GenericMethodsInGenericClassTRunner {
 
         // Plain Generic
         System.out.println("--- Plain Generic ---");
-        plainGeneric.genericMethodOneGenArg(new Plain(6, "747"));
-        System.out.println(plainGeneric.genericMethodTwoGenArgs(new Plain(6, "747"), str));
-        plainGeneric.genericMethodHalfGenArgs(new Plain(6, "747"), "Plain String");
+        plainGeneric.genericMethodOneGenArg(new Plane(6, "747"));
+        System.out.println(plainGeneric.genericMethodTwoGenArgs(new Plane(6, "747"), str));
+        plainGeneric.genericMethodHalfGenArgs(new Plane(6, "747"), "Plain String");
 
         // Rocket Generic
         System.out.println("--- Rocket Generic ---");

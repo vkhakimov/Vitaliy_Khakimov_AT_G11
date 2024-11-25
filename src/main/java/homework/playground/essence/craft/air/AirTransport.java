@@ -1,10 +1,10 @@
 package homework.playground.essence.craft.air;
 
-import homework.playground.essence.Flayable;
+import homework.playground.essence.Flyable;
 import homework.playground.essence.Matter;
 import homework.playground.essence.craft.Transportable;
 
-public abstract class AirTransport extends Matter implements Flayable, Transportable {
+public abstract class AirTransport extends Matter implements Flyable, Transportable {
     protected String name;
 
     public AirTransport(int mass, String name) {

@@ -3,7 +3,7 @@ package homework.day6;
 import homework.playground.essence.Matter;
 import homework.playground.essence.craft.air.AirTransport;
 import homework.playground.essence.craft.air.Copter;
-import homework.playground.essence.craft.air.Plain;
+import homework.playground.essence.craft.air.Plane;
 import homework.playground.essence.craft.air.Rocket;
 import homework.playground.essence.craft.ground.Car;
 import homework.playground.essence.craft.ground.Moped;
@@ -25,7 +25,7 @@ public class GenericMethodsInGenericClassTwoParamsRunner {
         GenericMethodsInGenericClassTwoParams<String, Double> stringDoubleGeneric = new GenericMethodsInGenericClassTwoParams<>();
 
         GenericMethodsInGenericClassTwoParams<AirTransport, Vehicle> airTransportVehicleGeneric = new GenericMethodsInGenericClassTwoParams<>();
-        GenericMethodsInGenericClassTwoParams<Copter, Plain> copterPlainGeneric = new GenericMethodsInGenericClassTwoParams<>();
+        GenericMethodsInGenericClassTwoParams<Copter, Plane> copterPlainGeneric = new GenericMethodsInGenericClassTwoParams<>();
         GenericMethodsInGenericClassTwoParams<Rocket, Copter> rocketCopterGeneric = new GenericMethodsInGenericClassTwoParams<>();
 
         GenericMethodsInGenericClassTwoParams<Car, Moped> carMopedGeneric = new GenericMethodsInGenericClassTwoParams<>();
@@ -73,13 +73,13 @@ public class GenericMethodsInGenericClassTwoParamsRunner {
         stringDoubleGeneric.genericMethodHalfGenArgs(str, dbl, "Test String 3");
 
         Copter copter = new Copter(1, "a123");
-        Plain plain = new Plain(1, "312adas");
+        Plane plane = new Plane(1, "312adas");
         Rocket rocket = new Rocket(1, "123sdqw");
         System.out.println("--- Copter Plain Generic ---");
         System.out.println(copterPlainGeneric.genericMethodGenArgs(copter));
-        System.out.println(copterPlainGeneric.genericMethodGenArgs(copter, plain));
+        System.out.println(copterPlainGeneric.genericMethodGenArgs(copter, plane));
         copterPlainGeneric.genericMethodHalfGenArgs(copter, "Test String 1");
-        copterPlainGeneric.genericMethodHalfGenArgs(copter, plain, "Test String 3");
+        copterPlainGeneric.genericMethodHalfGenArgs(copter, plane, "Test String 3");
 
         System.out.println("--- Rocket Copter Generic ---");
         System.out.println(rocketCopterGeneric.genericMethodGenArgs(rocket));
