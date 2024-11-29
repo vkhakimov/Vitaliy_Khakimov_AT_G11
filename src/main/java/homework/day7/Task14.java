@@ -10,6 +10,7 @@ import java.util.Map;
 public class Task14 {
     public static void main(String[] args) {
         List<Sand> sandbox = new ArrayList<>();
+        Map<Integer, Sand> sandMap = new HashMap<>();
 
         sandbox.add(new Sand(2, "Речной"));
         sandbox.add(new Sand(4, "Речной"));
@@ -29,7 +30,6 @@ public class Task14 {
             System.out.print(sand.getName() + " ");
         }
 
-        Map<Integer, Sand> sandMap = new HashMap<>();
         for (int i = 0; i < sandbox.size(); i++) {
             sandMap.put(i, sandbox.get(i));
         }
