@@ -1,4 +1,6 @@
-package homework.day7.task01;
+package homework.day7;
+
+import homework.day7.task01.Person;
 
 import java.util.ArrayList;
 import java.util.List;
