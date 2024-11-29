@@ -32,7 +32,7 @@ public class Task11 {
 
         System.out.println();
         System.out.println("===============================================");
-        System.out.println("Bubbles toString(): ");
+        System.out.println("Bubbles toString():");
         for (int i = 0; i < bubbles.size(); i++) {
             System.out.println(bubbles.toString());
         }
