@@ -15,8 +15,7 @@ public class Task3 {
         try {
             BufferedReader reader = new BufferedReader(new FileReader(inFilePath));
             BufferedWriter writer = new BufferedWriter(new FileWriter(outFilePath));
-            String line;
-            line = reader.readLine();
+            String line = reader.readLine();
             reader.close();
 
             String modifiedLine = line.replaceAll("[aeiouAEIOU]", "");
