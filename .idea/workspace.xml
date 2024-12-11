@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add task 0.1">
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add task from day 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,15 +51,21 @@
     "Application.GenericMethodsInGenericClassTRunner.executor": "Run",
     "Application.GenericMethodsInGenericClassTwoParamsRunner.executor": "Run",
     "Application.HashMapTask.executor": "Run",
+    "Application.Heavy.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.ScannerTask.executor": "Run",
     "Application.StringObjectRunner.executor": "Run",
     "Application.StringStaticRunner.executor": "Run",
     "Application.Task1.executor": "Run",
+    "Application.Task5.executor": "Run",
+    "Application.Task6.executor": "Run",
+    "Application.Task7.executor": "Run",
+    "Application.Task8.executor": "Run",
+    "Application.ThreadsTask.executor": "Run",
     "Application.TransportableProcessorRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "homework__day7",
+    "git-widget-placeholder": "homework__day9",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
@@ -76,13 +82,13 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task1">
-    <configuration name="FlyableProcessorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.playground.essence.runners.FlyableProcessorRunner" />
+  <component name="RunManager" selected="Application.ThreadsTask">
+    <configuration name="Heavy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day10.Heavy" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.playground.essence.runners.*" />
+          <option name="PATTERN" value="classwork.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,25 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethodsInGenericClassTwoParamsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.day6.GenericMethodsInGenericClassTwoParamsRunner" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day9.Runner" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScannerTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.day8.ScannerTask" />
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classwork.day8.*" />
+          <option name="PATTERN" value="classwork.day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +122,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransportableProcessorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.playground.essence.runners.TransportableProcessorRunner" />
+    <configuration name="ThreadsTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day10.ThreadsTask" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.playground.essence.runners.*" />
+          <option name="PATTERN" value="classwork.day10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransportableProcessorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.playground.runners.TransportableProcessorRunner" />
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.playground.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.ScannerTask" />
         <item itemvalue="Application.TransportableProcessorRunner" />
-        <item itemvalue="Application.FlyableProcessorRunner" />
-        <item itemvalue="Application.GenericMethodsInGenericClassTwoParamsRunner" />
+        <item itemvalue="Application.ThreadsTask" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Heavy" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +255,55 @@
       <option name="project" value="LOCAL" />
       <updated>1732758698915</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add Task5">
+      <option name="closed" value="true" />
+      <created>1733189621274</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733189621274</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add Task6">
+      <option name="closed" value="true" />
+      <created>1733189962760</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733189962760</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add Task7">
+      <option name="closed" value="true" />
+      <created>1733190553040</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733190553040</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add Task8">
+      <option name="closed" value="true" />
+      <created>1733191027741</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733191027741</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Removed file">
+      <option name="closed" value="true" />
+      <created>1733218510048</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733218510048</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add task from day 10">
+      <option name="closed" value="true" />
+      <created>1733251769795</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733251769795</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +321,13 @@
     <MESSAGE value="Add PreBaseTask, BaseTask, CycleTask, partially BubbleTask" />
     <MESSAGE value="Add Bubbles task" />
     <MESSAGE value="Add task 0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add task 0.1" />
+    <MESSAGE value="Add Task5" />
+    <MESSAGE value="Add Task6" />
+    <MESSAGE value="Add Task7" />
+    <MESSAGE value="Add Task8" />
+    <MESSAGE value="Removed file" />
+    <MESSAGE value="Add task from day 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add task from day 10" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
