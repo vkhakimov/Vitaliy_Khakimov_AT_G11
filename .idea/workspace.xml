@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add task from day 10">
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tasks for day 11">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vitaliy_Khakimov_AT_G11.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +59,7 @@
     "Application.Heavy.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.ScannerTask.executor": "Run",
+    "Application.StorableProcessorRunner.executor": "Run",
     "Application.StringObjectRunner.executor": "Run",
     "Application.StringStaticRunner.executor": "Run",
     "Application.Task1.executor": "Run",
@@ -61,11 +67,15 @@
     "Application.Task6.executor": "Run",
     "Application.Task7.executor": "Run",
     "Application.Task8.executor": "Run",
+    "Application.ThreadTask1.executor": "Run",
+    "Application.ThreadTask2.executor": "Run",
+    "Application.ThreadTask3.executor": "Run",
+    "Application.ThreadTask4.executor": "Run",
     "Application.ThreadsTask.executor": "Run",
     "Application.TransportableProcessorRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "homework__day9",
+    "git-widget-placeholder": "homework__day12",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
@@ -303,7 +313,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733251769795</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add thread tasks">
+      <option name="closed" value="true" />
+      <created>1734127654804</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734127654804</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add tasks for day 11">
+      <option name="closed" value="true" />
+      <created>1734130141732</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1734130141732</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +353,9 @@
     <MESSAGE value="Add Task8" />
     <MESSAGE value="Removed file" />
     <MESSAGE value="Add task from day 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add task from day 10" />
+    <MESSAGE value="Add thread tasks" />
+    <MESSAGE value="Add tasks for day 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tasks for day 11" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
