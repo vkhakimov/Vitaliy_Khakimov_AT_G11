@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tasks for day 11">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tasks for day 12">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vitaliy_Khakimov_AT_G11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/people/AutomatedEngineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/people/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/people/ManualEngineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/people/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerJunitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/people/ManualEngineerJunitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/people/ManualEngineerTestNgTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vitaliy_Khakimov_AT_G11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -73,8 +82,14 @@
     "Application.ThreadTask4.executor": "Run",
     "Application.ThreadsTask.executor": "Run",
     "Application.TransportableProcessorRunner.executor": "Run",
+    "JUnit.AutomatedEngineerJunitTest.executor": "Run",
+    "Maven.Unknown [clean].executor": "Run",
+    "Maven.Unknown [compile].executor": "Run",
+    "Maven.Unknown [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AutomatedEngineerTestNgTest.executor": "Run",
+    "TestNG.AutomatedEngineerTestNgTest.testConstructorAndProperties.executor": "Run",
     "git-widget-placeholder": "homework__day12",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
@@ -92,79 +107,97 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadsTask">
-    <configuration name="Heavy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.day10.Heavy" />
+  <component name="RunManager" selected="JUnit.ManualEngineerJunitTest">
+    <configuration name="ManualEngineerJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.day10.*" />
+          <option name="PATTERN" value="people.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="people" />
+      <option name="MAIN_CLASS_NAME" value="people.ManualEngineerJunitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.day9.Runner" />
+    <configuration name="ManualEngineerJunitTest.testConstructorAndProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.day9.*" />
+          <option name="PATTERN" value="people.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="people" />
+      <option name="MAIN_CLASS_NAME" value="people.ManualEngineerJunitTest" />
+      <option name="METHOD_NAME" value="testConstructorAndProperties" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.day7.Task1" />
+    <configuration name="AutomatedEngineerTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.day7.*" />
+          <option name="PATTERN" value="people.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="people" />
+      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerTestNgTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadsTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classwork.day10.ThreadsTask" />
+    <configuration name="ManualEngineerTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classwork.day10.*" />
+          <option name="PATTERN" value="people.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="people" />
+      <option name="MAIN_CLASS_NAME" value="people.ManualEngineerTestNgTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransportableProcessorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.playground.runners.TransportableProcessorRunner" />
+    <configuration name="ManualEngineerTestNgTest.testConstructorAndProperties" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.playground.runners.*" />
+          <option name="PATTERN" value="people.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="people" />
+      <option name="MAIN_CLASS_NAME" value="people.ManualEngineerTestNgTest" />
+      <option name="METHOD_NAME" value="testConstructorAndProperties" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TransportableProcessorRunner" />
-        <item itemvalue="Application.ThreadsTask" />
-        <item itemvalue="Application.Task1" />
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.Heavy" />
+        <item itemvalue="JUnit.ManualEngineerJunitTest" />
+        <item itemvalue="JUnit.ManualEngineerJunitTest.testConstructorAndProperties" />
+        <item itemvalue="TestNG.ManualEngineerTestNgTest.testConstructorAndProperties" />
+        <item itemvalue="TestNG.ManualEngineerTestNgTest" />
+        <item itemvalue="TestNG.AutomatedEngineerTestNgTest" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734130141732</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add tasks for day 12">
+      <option name="closed" value="true" />
+      <created>1734131449341</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1734131449341</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +396,8 @@
     <MESSAGE value="Add task from day 10" />
     <MESSAGE value="Add thread tasks" />
     <MESSAGE value="Add tasks for day 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tasks for day 11" />
+    <MESSAGE value="Add tasks for day 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tasks for day 12" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
