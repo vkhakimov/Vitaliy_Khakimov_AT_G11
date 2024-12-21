@@ -1,0 +1,37 @@
+package classwork.day14;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.net.MalformedURLException;
+
+public class SeleniumTest {
+    public static void main(String[] args) throws MalformedURLException, InterruptedException {
+        WebDriver webDriver = new ChromeDriver();
+//        webDriver.manage().addCookie();
+
+        webDriver.get("https://google.com");
+
+        WebElement acceptAll = webDriver.findElement(By.xpath("//button/div[text()='Accept all']"));
+        acceptAll.click();
+
+        WebElement searchInput = webDriver.findElement(By.xpath("//textarea[@role='combobox']"));
+        searchInput.sendKeys("погода минск");
+
+        Thread.sleep(500);
+        WebElement firstSearchResult = webDriver.findElement(By.xpath("(//div[@role='option']/div)[1]"));
+        firstSearchResult.click();
+
+        WebElement weatherTomorrow = webDriver.findElement(By.xpath("//div[@data-wob-di='1']"));
+        weatherTomorrow.click();
+
+        WebElement twelvePM = webDriver.findElement(By.cssSelector("[d='M0 48 L13.5 48 L40.5 52 L67.5 52 L94.5 56 L121.5 56 L148.5 56 L175.5 60 L202.5 60 L229.5 60 L256.5 60 L283.5 60 L310.5 60 L337.5 64 L364.5 60 L391.5 60 L418.5 60 L445.5 56 L472.5 56 L499.5 56 L526.5 56 L553.5 56 L580.5 68 L607.5 72 L634.5 72 L661.5 68 L688.5 68 L715.5 64 L742.5 60 L769.5 56 L796.5 52 L823.5 44 L850.5 44 L877.5 40 L904.5 36 L931.5 36 L958.5 32 L985.5 32 L1012.5 32 L1039.5 28 L1066.5 28 L1093.5 24 L1120.5 20 L1147.5 24 L1174.5 24 L1201.5 24 L1228.5 24 L1255.5 24 L1282.5 24 L1309.5 28 L1336.5 28 L1363.5 28 L1390.5 28 L1417.5 28 L1444.5 28 L1471.5 28 L1498.5 28 L1525.5 28 L1552.5 32 L1579.5 32 L1606.5 32 L1633.5 28 L1660.5 32 L1687.5 32 L1714.5 32 L1741.5 28 L1768.5 28 L1795.5 28 L1822.5 32 L1849.5 36 L1876.5 40 L1903.5 40 L1930.5 40 L1957.5 40 L1984.5 44 L2011.5 44 L2038.5 48 L2065.5 52 L2092.5 48 L2119.5 52 L2146.5 52 L2173.5 56 L2200.5 60 L2227.5 60 L2254.5 56 L2281.5 56 L2308.5 52 L2335.5 52 L2362.5 52 L2389.5 52 L2416.5 48 L2443.5 48 L2470.5 48 L2497.5 52 L2524.5 52 L2551.5 56 L2578.5 56 L2605.5 56 L2632.5 56 L2659.5 56 L2686.5 56 L2713.5 56 L2740.5 56 L2767.5 52 L2794.5 52 L2821.5 56 L2848.5 56 L2875.5 56 L2902.5 56 L2929.5 56 L2956.5 56 L2983.5 60 L3010.5 56 L3037.5 56 L3064.5 56 L3091.5 56 L3118.5 56 L3145.5 56 L3172.5 56 L3199.5 56 L3226.5 60 L3253.5 60 L3280.5 60 L3307.5 60 L3334.5 60 L3361.5 60 L3388.5 60 L3415.5 60 L3442.5 60 L3469.5 60 L3496.5 60 L3523.5 60 L3550.5 56 L3577.5 56 L3604.5 56 L3631.5 56 L3658.5 56 L3685.5 52 L3712.5 52 L3739.5 52 L3766.5 52 L3793.5 56 L3820.5 60 L3847.5 60 L3874.5 60 L3901.5 60 L3928.5 60 L3955.5 64 L3982.5 64 L4009.5 64 L4036.5 64 L4063.5 60 L4090.5 60 L4117.5 60 L4144.5 64 L4171.5 64 L4198.5 64 L4225.5 64 L4252.5 64 L4279.5 64 L4306.5 60 L4333.5 60 L4360.5 60 L4387.5 60 L4414.5 60 L4441.5 60 L4468.5 64 L4495.5 64 L4522.5 64 L4549.5 64 L4576.5 64 L4603.5 68 L4630.5 72 L4657.5 72 L4684.5 76 L4711.5 76 L4738.5 76 L4765.5 72 L4792.5 72 L4819.5 72 L4846.5 68 L4873.5 68 L4900.5 64 L4927.5 64 L4954.5 60 L4981.5 60 L5008.5 60 L5035.5 60 L5062.5 60 L5089.5 60 L5116.5 60 L5143.5 60 L5170.5 60 L5197.5 60 L5224.5 60 L5251.5 60 L5278.5 60 L5305.5 60 L5332.5 60 L5359.5 56 L5386.5 56 L5413.5 56 L5440.5 56 L5467.5 52 L5494.5 52 L5521.5 52 L5548.5 48 L5575.5 48 L5602.5 48 L5629.5 44 L5656.5 44 L5683.5 44 L5710.5 44 L5737.5 44 L5764.5 44 L5791.5 48 L5818.5 44 L5845.5 48 L5872.5 48 L5899.5 48 L5926.5 52 L5953.5 52 L5980.5 56 L6007.5 56 L6034.5 56 L6061.5 60 L6088.5 60 L6115.5 60 L6142.5 60 L6169.5 60 L6196.5 60 L6223.5 56 L6250.5 56 L6277.5 52 L6304.5 52 L6331.5 48 L6358.5 52 L6385.5 52 L6412.5 52 L6439.5 52 L6466.5 52 L6493.5 52 L6520.5 52 L6547.5 52 L6561 52 L6561 80 L0 80 Z']"));
+        twelvePM.click();
+
+        webDriver.quit();
+//        WebDriver driver2 = new RemoteWebDriver(new URL("http://localhost:64638"), new ChromeOptions());
+//        driver2.get("https://selenium.dev");
+    }
+}

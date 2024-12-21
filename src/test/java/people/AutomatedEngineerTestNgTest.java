@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 public class AutomatedEngineerTestNgTest {
-
     @Test
     public void testConstructorAndProperties() {
         // Create an instance of the concrete TestAutomatedEngineer
