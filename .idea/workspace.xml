@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tasks for day 12">
-      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day14/SeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/people/EngineerTestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/people/EngineerUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/people/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vitaliy_Khakimov_AT_G11.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classwork/day14/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classwork/day14/SeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +89,7 @@
     "TestNG.EngineerTestNG.testGetAge.executor": "Run",
     "TestNG.EngineerTestNG.testGetExperience.executor": "Run",
     "TestNG.EngineerTestNG.testGetSkill.executor": "Run",
-    "git-widget-placeholder": "homework__day12",
+    "git-widget-placeholder": "classwork__day14",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
@@ -114,18 +106,16 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EngineerTestNG">
-    <configuration name="EngineerUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SeleniumTest">
+    <configuration name="SeleniumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day14.SeleniumTest" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="people.*" />
+          <option name="PATTERN" value="classwork.day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.EngineerUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -203,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SeleniumTest" />
         <item itemvalue="TestNG.EngineerTestNG" />
         <item itemvalue="TestNG.EngineerTestNG.testGetSkill" />
         <item itemvalue="TestNG.EngineerTestNG.testGetAge" />
         <item itemvalue="TestNG.EngineerTestNG.testGetExperience" />
-        <item itemvalue="JUnit.EngineerUnitTest" />
       </list>
     </recent_temporary>
   </component>
