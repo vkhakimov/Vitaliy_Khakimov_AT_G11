@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tasks for day 12">
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day15/WaitTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classwork/day14/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classwork/day14/SeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="classwork_day14" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,6 +71,7 @@
     "Application.ThreadTask4.executor": "Run",
     "Application.ThreadsTask.executor": "Run",
     "Application.TransportableProcessorRunner.executor": "Run",
+    "Application.WaitTask.executor": "Debug",
     "JUnit.AutomatedEngineerJunitTest.executor": "Run",
     "JUnit.EngineerUnitTest.executor": "Run",
     "JUnit.ManualEngineerJunitTest.testConstructorAndProperties.executor": "Run",
@@ -89,7 +90,7 @@
     "TestNG.EngineerTestNG.testGetAge.executor": "Run",
     "TestNG.EngineerTestNG.testGetExperience.executor": "Run",
     "TestNG.EngineerTestNG.testGetSkill.executor": "Run",
-    "git-widget-placeholder": "classwork__day14",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
     "project.structure.last.edited": "Modules",
@@ -106,13 +107,26 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeleniumTest">
+  <component name="RunManager" selected="Application.WaitTask">
     <configuration name="SeleniumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.day14.SeleniumTest" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classwork.day14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day15.WaitTask" />
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,24 +169,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EngineerTestNG.testGetExperience" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.EngineerTestNG" />
-      <option name="METHOD_NAME" value="testGetExperience" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EngineerTestNG.testGetSkill" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
@@ -193,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaitTask" />
         <item itemvalue="Application.SeleniumTest" />
         <item itemvalue="TestNG.EngineerTestNG" />
         <item itemvalue="TestNG.EngineerTestNG.testGetSkill" />
         <item itemvalue="TestNG.EngineerTestNG.testGetAge" />
-        <item itemvalue="TestNG.EngineerTestNG.testGetExperience" />
       </list>
     </recent_temporary>
   </component>
@@ -400,5 +396,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add tasks for day 12" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/classwork/day15/WaitTask.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
