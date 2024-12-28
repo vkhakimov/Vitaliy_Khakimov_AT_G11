@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add classwork for day 15">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/TutorialTest.java" afterDir="false" />
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tutorial task for day 15">
+      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/LondonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classwork/day14/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classwork/day14/SeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classwork/day15/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +93,7 @@
     "TestNG.EngineerTestNG.testGetAge.executor": "Run",
     "TestNG.EngineerTestNG.testGetExperience.executor": "Run",
     "TestNG.EngineerTestNG.testGetSkill.executor": "Run",
+    "TestNG.LondonTest.londonTest.executor": "Run",
     "TestNG.TutorialTest.executor": "Run",
     "TestNG.TutorialTest.tutorialTest.executor": "Run",
     "git-widget-placeholder": "homework__day15",
@@ -117,22 +117,7 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TutorialTest.tutorialTest">
-    <configuration name="AutomatedEngineerJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerJunitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LondonTest.londonTest">
     <configuration name="TutorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
@@ -159,6 +144,24 @@
       <option name="PACKAGE_NAME" value="people" />
       <option name="MAIN_CLASS_NAME" value="people.EngineerTestNG" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LondonTest.londonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework.day15" />
+      <option name="MAIN_CLASS_NAME" value="homework.day15.LondonTest" />
+      <option name="METHOD_NAME" value="londonTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -202,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LondonTest.londonTest" />
         <item itemvalue="TestNG.TutorialTest.tutorialTest" />
         <item itemvalue="TestNG.TutorialTest" />
         <item itemvalue="JUnit.TutorialTest" />
         <item itemvalue="TestNG.EngineerTestNG" />
-        <item itemvalue="JUnit.AutomatedEngineerJunitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735059058523</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add tutorial task for day 15">
+      <option name="closed" value="true" />
+      <created>1735350066809</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1735350066809</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +426,8 @@
     <MESSAGE value="Add tasks for day 11" />
     <MESSAGE value="Add tasks for day 12" />
     <MESSAGE value="Add classwork for day 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add classwork for day 15" />
+    <MESSAGE value="Add tutorial task for day 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tutorial task for day 15" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
