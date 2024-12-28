@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tasks for day 12">
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add classwork for day 15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classwork/day14/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classwork/day14/SeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classwork/day15/WaitTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classwork/day15/BookingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerJunitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,9 @@
     "Application.ThreadTask4.executor": "Run",
     "Application.ThreadsTask.executor": "Run",
     "Application.TransportableProcessorRunner.executor": "Run",
+    "Application.WaitTask.executor": "Run",
     "JUnit.AutomatedEngineerJunitTest.executor": "Run",
+    "JUnit.BookingTest.executor": "Run",
     "JUnit.EngineerUnitTest.executor": "Run",
     "JUnit.ManualEngineerJunitTest.testConstructorAndProperties.executor": "Run",
     "Maven.Unknown [clean].executor": "Run",
@@ -89,15 +92,18 @@
     "TestNG.EngineerTestNG.testGetAge.executor": "Run",
     "TestNG.EngineerTestNG.testGetExperience.executor": "Run",
     "TestNG.EngineerTestNG.testGetSkill.executor": "Run",
-    "git-widget-placeholder": "classwork__day14",
+    "git-widget-placeholder": "classwork__day15",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11",
+    "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11/src/test/java/classwork/day15",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/classwork/day15" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -106,7 +112,20 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SeleniumTest">
+  <component name="RunManager" selected="JUnit.AutomatedEngineerJunitTest">
+    <configuration name="BookingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day15.BookingTest" />
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeleniumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.day14.SeleniumTest" />
       <module name="Vitaliy_Khakimov_AT_G11" />
@@ -116,6 +135,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AutomatedEngineerJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="people.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="people" />
+      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerJunitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classwork.day15" />
+      <option name="MAIN_CLASS_NAME" value="classwork.day15.BookingTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,67 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EngineerTestNG.testGetAge" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.EngineerTestNG" />
-      <option name="METHOD_NAME" value="testGetAge" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EngineerTestNG.testGetExperience" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.EngineerTestNG" />
-      <option name="METHOD_NAME" value="testGetExperience" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EngineerTestNG.testGetSkill" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.EngineerTestNG" />
-      <option name="METHOD_NAME" value="testGetSkill" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutomatedEngineerJunitTest" />
+        <item itemvalue="JUnit.BookingTest" />
+        <item itemvalue="Application.BookingTest" />
         <item itemvalue="Application.SeleniumTest" />
         <item itemvalue="TestNG.EngineerTestNG" />
-        <item itemvalue="TestNG.EngineerTestNG.testGetSkill" />
-        <item itemvalue="TestNG.EngineerTestNG.testGetAge" />
-        <item itemvalue="TestNG.EngineerTestNG.testGetExperience" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734131449341</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add classwork for day 15">
+      <option name="closed" value="true" />
+      <created>1735059058523</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1735059058523</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -397,7 +400,8 @@
     <MESSAGE value="Add thread tasks" />
     <MESSAGE value="Add tasks for day 11" />
     <MESSAGE value="Add tasks for day 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tasks for day 12" />
+    <MESSAGE value="Add classwork for day 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add classwork for day 15" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
