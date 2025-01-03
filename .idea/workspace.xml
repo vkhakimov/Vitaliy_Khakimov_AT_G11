@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add classwork for day 15">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classwork/day15/WaitTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classwork/day15/BookingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerJunitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day17/CucumberSitePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day17/DemoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DemoSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DemoFeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="homework_day15" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,6 +75,7 @@
     "Application.ThreadsTask.executor": "Run",
     "Application.TransportableProcessorRunner.executor": "Run",
     "Application.WaitTask.executor": "Run",
+    "Cucumber Java.Scenario: My first demo test.executor": "Run",
     "JUnit.AutomatedEngineerJunitTest.executor": "Run",
     "JUnit.BookingTest.executor": "Run",
     "JUnit.EngineerUnitTest.executor": "Run",
@@ -92,7 +95,7 @@
     "TestNG.EngineerTestNG.testGetAge.executor": "Run",
     "TestNG.EngineerTestNG.testGetExperience.executor": "Run",
     "TestNG.EngineerTestNG.testGetSkill.executor": "Run",
-    "git-widget-placeholder": "classwork__day15",
+    "git-widget-placeholder": "classwork__day17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11/src/test/java/classwork/day15",
     "project.structure.last.edited": "Modules",
@@ -112,7 +115,7 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AutomatedEngineerJunitTest">
+  <component name="RunManager" selected="Cucumber Java.Scenario: My first demo test">
     <configuration name="BookingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classwork.day15.BookingTest" />
       <module name="Vitaliy_Khakimov_AT_G11" />
@@ -132,6 +135,25 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classwork.day14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: My first demo test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/DemoFeature.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <option name="NAME_FILTER" value="^My first demo test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^My first demo test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: My first demo test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,30 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EngineerTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.EngineerTestNG" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: My first demo test" />
         <item itemvalue="JUnit.AutomatedEngineerJunitTest" />
         <item itemvalue="JUnit.BookingTest" />
         <item itemvalue="Application.BookingTest" />
         <item itemvalue="Application.SeleniumTest" />
-        <item itemvalue="TestNG.EngineerTestNG" />
       </list>
     </recent_temporary>
   </component>
