@@ -1,7 +1,5 @@
-package people;
-
-
 import org.testng.annotations.Test;
+import people.AutomatedEngineer;
 
 import static org.testng.Assert.assertEquals;
 

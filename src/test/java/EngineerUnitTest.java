@@ -1,10 +1,11 @@
-package people;
-
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.MethodSorters;
 import org.junit.runners.Parameterized;
+import people.AutomatedEngineer;
+import people.Engineer;
+import people.ManualEngineer;
 
 import java.util.Arrays;
 import java.util.Collection;

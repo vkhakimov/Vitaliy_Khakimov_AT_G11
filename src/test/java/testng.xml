@@ -2,9 +2,9 @@
 <suite name="EngineerTestNG" verbose="3">
     <test name="testing">
         <classes>
-            <class name="people.ManualEngineerTestNgTest"/>
-            <class name="people.AutomatedEngineerTestNgTest"/>
-            <class name="people.EngineerTestNG"/>
+            <class name="ManualEngineerTestNgTest"/>
+            <class name="AutomatedEngineerTestNgTest"/>
+            <class name="EngineerTestNG"/>
         </classes>
     </test>
 </suite>

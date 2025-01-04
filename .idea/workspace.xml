@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tutorial task for day 15">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingLondonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingParisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingTooltipsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/DemoQaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/BookingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/LondonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/ManualEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/ManualEngineerTestNgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomatedEngineerJunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomatedEngineerTestNgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/people/EngineerTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EngineerTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/people/EngineerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EngineerUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/people/ManualEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManualEngineerJunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/people/ManualEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManualEngineerTestNgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/people/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +77,7 @@
     "Application.ThreadsTask.executor": "Run",
     "Application.TransportableProcessorRunner.executor": "Run",
     "Application.WaitTask.executor": "Run",
+    "JUnit.AutomatedEngineerJunitTest,testSkill and 4 more.executor": "Run",
     "JUnit.AutomatedEngineerJunitTest.executor": "Run",
     "JUnit.BookingTest.executor": "Run",
     "JUnit.EngineerUnitTest.executor": "Run",
@@ -108,7 +107,7 @@
     "TestNG.ManualEngineerTestNgTest.executor": "Run",
     "TestNG.TutorialTest.executor": "Run",
     "TestNG.TutorialTest.tutorialTest.executor": "Run",
-    "git-widget-placeholder": "homework__day15",
+    "git-widget-placeholder": "homework__day16",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11/src/test/java/classwork/day15",
     "project.structure.last.edited": "Modules",
@@ -121,6 +120,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/classwork/day15" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test/java/homework/day15" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -129,7 +129,21 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ManualEngineerJunitTest">
+  <component name="RunManager" selected="JUnit.AutomatedEngineerJunitTest,testSkill and 4 more">
+    <configuration name="AutomatedEngineerJunitTest,testSkill and 4 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="AutomatedEngineerJunitTest,testSkill" />
+        <pattern testClass="AutomatedEngineerJunitTest,testExperience" />
+        <pattern testClass="AutomatedEngineerJunitTest,testAgeSetterGetter" />
+        <pattern testClass="AutomatedEngineerJunitTest,testSkillSetterGetter" />
+        <pattern testClass="AutomatedEngineerJunitTest,testExperienceSetterGetter" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManualEngineerJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
@@ -180,24 +194,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomatedEngineerTestNgTest.testSkill" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerTestNgTest" />
-      <option name="METHOD_NAME" value="testSkill" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ManualEngineerTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
@@ -217,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutomatedEngineerJunitTest,testSkill and 4 more" />
         <item itemvalue="JUnit.ManualEngineerJunitTest" />
         <item itemvalue="TestNG.ManualEngineerTestNgTest" />
         <item itemvalue="TestNG.AutomatedEngineerTestNgTest" />
         <item itemvalue="TestNG.AutomatedEngineerTestNgTest.testAge" />
-        <item itemvalue="TestNG.AutomatedEngineerTestNgTest.testSkill" />
       </list>
     </recent_temporary>
   </component>

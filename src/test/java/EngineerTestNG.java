@@ -1,7 +1,8 @@
-package people;
-
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import people.AutomatedEngineer;
+import people.Engineer;
+import people.ManualEngineer;
 
 import static org.testng.Assert.assertEquals;
 

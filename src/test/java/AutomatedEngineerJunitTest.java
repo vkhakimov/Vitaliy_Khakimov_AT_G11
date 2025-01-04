@@ -1,6 +1,5 @@
-package people;
-
 import org.junit.Test;
+import people.AutomatedEngineer;
 
 import static org.junit.Assert.assertEquals;
 
