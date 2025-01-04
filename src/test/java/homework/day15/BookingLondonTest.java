@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
-public class LondonTest {
+public class BookingLondonTest {
 
     WebDriver driver;
 

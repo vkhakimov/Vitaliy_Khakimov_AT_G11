@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -17,7 +16,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-public class BookingTest {
+public class BookingParisTest {
 
     WebDriver driver;
     LocalDate currentDate = LocalDate.now();
@@ -100,11 +99,6 @@ public class BookingTest {
 
         List<WebElement> stars = driver.findElements(By.xpath("//div[./h3]/div/span/div"));
         String rating = stars.getFirst().getAttribute("aria-label");
-        Assert.assertEquals("Wrong rating!", rating, "1 out of 5");
-    }
-
-    @AfterTest
-    public void shutDown() {
-        driver.quit();
+        Assert.assertEquals(rating, "1 out of 5", "Wrong rating!");
     }
 }
