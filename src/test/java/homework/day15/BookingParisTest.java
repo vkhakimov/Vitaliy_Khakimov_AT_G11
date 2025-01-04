@@ -1,9 +1,5 @@
-package classwork.day15;
+package homework.day15;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -11,13 +7,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-public class BookingTest {
+public class BookingParisTest {
 
     WebDriver driver;
     LocalDate currentDate = LocalDate.now();
@@ -30,7 +29,7 @@ public class BookingTest {
         return formattedDate;
     }
 
-    @Before
+    @BeforeTest
     public void initialize() {
         driver = new ChromeDriver();
         driver.get("https://www.booking.com/");
@@ -100,11 +99,6 @@ public class BookingTest {
 
         List<WebElement> stars = driver.findElements(By.xpath("//div[./h3]/div/span/div"));
         String rating = stars.getFirst().getAttribute("aria-label");
-        Assert.assertEquals("Wrong rating!", rating, "1 out of 5");
-    }
-
-    @After
-    public void shutDown() {
-        driver.quit();
+        Assert.assertEquals(rating, "1 out of 5", "Wrong rating!");
     }
 }

@@ -29,28 +29,28 @@ public class EngineerUnitTest {
     }
 
     @Test
-    public void GetAgeTest() {
+    public void getAgeTest() {
         assertEquals("The age is wrong", 18, engineer.getAge());
     }
 
     @Test
-    public void GetSkillTest() {
+    public void getSkillTest() {
         assertEquals("The skill is wrong", expectedSkill, engineer.getSkill());
     }
 
     @Test
-    public void GetExperienceTest() {
+    public void getExperienceTest() {
         assertEquals("The experience is wrong", 5, engineer.getExperience());
     }
 
     @Test
-    public void SetAgeTest() {
+    public void setAgeTest() {
         engineer.setAge(99);
         assertEquals("The age is wrong", 99, engineer.getAge());
     }
 
     @Test
-    public void SetSkillTest() {
+    public void setSkillTest() {
         engineer.setSkill(45);
         assertEquals("The skill is wrong", 45, engineer.getSkill());
     }

@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.net.MalformedURLException;
 import java.time.DayOfWeek;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.TextStyle;
 import java.util.Locale;
@@ -35,7 +36,7 @@ public class SeleniumTest {
         WebElement searchInput = webDriver.findElement(By.xpath("//textarea[@role='combobox']"));
         searchInput.sendKeys("погода минск");
 
-        Thread.sleep(500);
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         WebElement firstSearchResult = webDriver.findElement(By.xpath("(//div[@role='option']/div)[1]"));
         firstSearchResult.click();
 
@@ -43,7 +44,7 @@ public class SeleniumTest {
         weatherTomorrow.click();
 
         String tomorrowDayTwelvePMXPath = String.format("//*[contains(@aria-label, '°Celsius %s 12:00')][1]", tomorrowDay);
-        Thread.sleep(500);
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1));
         WebElement tomorrowDayTwelvePM = webDriver.findElement(By.xpath(tomorrowDayTwelvePMXPath));
         String ariaLabelText = tomorrowDayTwelvePM.getDomAttribute("aria-label");
         System.out.println(ariaLabelText);
