@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tutorial task for day 15">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingLondonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingParisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingTooltipsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/DemoQaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day18/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/BookingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/LondonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/ManualEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/ManualEngineerTestNgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +56,7 @@
     "Application.GenericMethodsInGenericClassTwoParamsRunner.executor": "Run",
     "Application.HashMapTask.executor": "Run",
     "Application.Heavy.executor": "Run",
+    "Application.MyClass.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.ScannerTask.executor": "Run",
     "Application.SeleniumTest.executor": "Run",
@@ -108,7 +104,7 @@
     "TestNG.ManualEngineerTestNgTest.executor": "Run",
     "TestNG.TutorialTest.executor": "Run",
     "TestNG.TutorialTest.tutorialTest.executor": "Run",
-    "git-widget-placeholder": "homework__day15",
+    "git-widget-placeholder": "classwork__day18",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11/src/test/java/classwork/day15",
     "project.structure.last.edited": "Modules",
@@ -129,7 +125,20 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ManualEngineerJunitTest">
+  <component name="RunManager" selected="Application.MyClass">
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day18.MyClass" />
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classwork.day18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ManualEngineerJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
@@ -180,24 +189,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomatedEngineerTestNgTest.testSkill" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerTestNgTest" />
-      <option name="METHOD_NAME" value="testSkill" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ManualEngineerTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
@@ -217,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyClass" />
         <item itemvalue="JUnit.ManualEngineerJunitTest" />
         <item itemvalue="TestNG.ManualEngineerTestNgTest" />
         <item itemvalue="TestNG.AutomatedEngineerTestNgTest" />
         <item itemvalue="TestNG.AutomatedEngineerTestNgTest.testAge" />
-        <item itemvalue="TestNG.AutomatedEngineerTestNgTest.testSkill" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735350066809</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add homework day16">
+      <option name="closed" value="true" />
+      <created>1735983882393</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1735983882393</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +438,8 @@
     <MESSAGE value="Add tasks for day 12" />
     <MESSAGE value="Add classwork for day 15" />
     <MESSAGE value="Add tutorial task for day 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tutorial task for day 15" />
+    <MESSAGE value="add homework day16" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework day16" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
