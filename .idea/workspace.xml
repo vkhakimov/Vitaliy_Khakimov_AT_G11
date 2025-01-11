@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tutorial task for day 15">
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomatedEngineerJunitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomatedEngineerTestNgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/EngineerTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EngineerTestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/EngineerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EngineerUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/ManualEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManualEngineerJunitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/ManualEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ManualEngineerTestNgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng.xml" afterDir="false" />
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="add classwork day18">
+      <change afterPath="$PROJECT_DIR$/src/test/java/driver/WebDriverSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SearchResultsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/people/AutomatedEngineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/AutomatedEngineer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/people/ManualEngineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/ManualEngineer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomatedEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/junit/AutomatedEngineerJunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomatedEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/testng/AutomatedEngineerTestNgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EngineerTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/testng/EngineerTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EngineerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/junit/EngineerUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManualEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/junit/ManualEngineerJunitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ManualEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/testng/ManualEngineerTestNgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/BookingLondonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/BookingLondonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/BookingParisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/BookingParisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/BookingTooltipsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/BookingTooltipsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/DemoQaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/DemoQaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/TutorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/TutorialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/testng/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +46,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="homework_day15" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,6 +94,7 @@
     "JUnit.AutomatedEngineerJunitTest.executor": "Run",
     "JUnit.BookingTest.executor": "Run",
     "JUnit.EngineerUnitTest.executor": "Run",
+    "JUnit.ManualEngineerJunitTest.executor": "Run",
     "JUnit.ManualEngineerJunitTest.testConstructorAndProperties.executor": "Run",
     "JUnit.TutorialTest.executor": "Run",
     "Maven.Unknown [clean].executor": "Run",
@@ -96,8 +110,13 @@
     "TestNG.AutomatedEngineerTestNgTest.testAge.executor": "Run",
     "TestNG.AutomatedEngineerTestNgTest.testConstructorAndProperties.executor": "Run",
     "TestNG.AutomatedEngineerTestNgTest.testSkill.executor": "Run",
+    "TestNG.BookingLondonTest.executor": "Run",
+    "TestNG.BookingLondonTest.londonTest.executor": "Run",
+    "TestNG.BookingParisTest.parisTest.executor": "Run",
     "TestNG.BookingTest.actionsTest.executor": "Run",
     "TestNG.BookingTest.parisTest.executor": "Run",
+    "TestNG.BookingTooltipsTest.actionsTest.executor": "Run",
+    "TestNG.BookingTooltipsTest.executor": "Run",
     "TestNG.DemoQaTest.executor": "Debug",
     "TestNG.EngineerTestNG.executor": "Run",
     "TestNG.EngineerTestNG.testGetAge.executor": "Run",
@@ -120,6 +139,7 @@
       <recent name="$PROJECT_DIR$/src/test/java/classwork/day15" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/tests/unit/testng" />
       <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test/java/homework/day15" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -129,46 +149,47 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AutomatedEngineerJunitTest,testSkill and 4 more">
-    <configuration name="AutomatedEngineerJunitTest,testSkill and 4 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="AutomatedEngineerJunitTest,testSkill" />
-        <pattern testClass="AutomatedEngineerJunitTest,testExperience" />
-        <pattern testClass="AutomatedEngineerJunitTest,testAgeSetterGetter" />
-        <pattern testClass="AutomatedEngineerJunitTest,testSkillSetterGetter" />
-        <pattern testClass="AutomatedEngineerJunitTest,testExperienceSetterGetter" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManualEngineerJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BookingParisTest.parisTest">
+    <configuration name="AutomatedEngineerJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="people.*" />
+          <option name="PATTERN" value="tests.unit.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.ManualEngineerJunitTest" />
+      <option name="PACKAGE_NAME" value="tests.unit.junit" />
+      <option name="MAIN_CLASS_NAME" value="tests.unit.junit.AutomatedEngineerJunitTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomatedEngineerTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EngineerUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="people.*" />
+          <option name="PATTERN" value="tests.unit.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerTestNgTest" />
+      <option name="PACKAGE_NAME" value="tests.unit.junit" />
+      <option name="MAIN_CLASS_NAME" value="tests.unit.junit.EngineerUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingLondonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.ui" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.BookingLondonTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -176,17 +197,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomatedEngineerTestNgTest.testAge" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingLondonTest.londonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="people.*" />
+          <option name="PATTERN" value="tests.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerTestNgTest" />
-      <option name="METHOD_NAME" value="testAge" />
+      <option name="PACKAGE_NAME" value="tests.ui" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.BookingLondonTest" />
+      <option name="METHOD_NAME" value="londonTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -194,17 +215,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManualEngineerTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingParisTest.parisTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="people.*" />
+          <option name="PATTERN" value="tests.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.ManualEngineerTestNgTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.ui" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.BookingParisTest" />
+      <option name="METHOD_NAME" value="parisTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -213,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AutomatedEngineerJunitTest,testSkill and 4 more" />
-        <item itemvalue="JUnit.ManualEngineerJunitTest" />
-        <item itemvalue="TestNG.ManualEngineerTestNgTest" />
-        <item itemvalue="TestNG.AutomatedEngineerTestNgTest" />
-        <item itemvalue="TestNG.AutomatedEngineerTestNgTest.testAge" />
+        <item itemvalue="TestNG.BookingParisTest.parisTest" />
+        <item itemvalue="TestNG.BookingLondonTest.londonTest" />
+        <item itemvalue="TestNG.BookingLondonTest" />
+        <item itemvalue="JUnit.AutomatedEngineerJunitTest" />
+        <item itemvalue="JUnit.EngineerUnitTest" />
       </list>
     </recent_temporary>
   </component>

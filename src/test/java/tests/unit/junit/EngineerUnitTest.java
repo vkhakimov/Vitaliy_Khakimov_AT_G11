@@ -1,3 +1,5 @@
+package tests.unit.junit;
+
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,8 +26,8 @@ public class EngineerUnitTest {
     @Parameterized.Parameters
     public static Collection<Object[]> engineers() {
         return Arrays.asList(new Object[][]{
-                {new ManualEngineer(18, 5, 5), 5},
-                {new AutomatedEngineer(18, 5, 5), 15}
+                {new ManualEngineer(18, 5), 10},
+                {new AutomatedEngineer(18, 5), 15}
         });
     }
 
@@ -57,7 +59,7 @@ public class EngineerUnitTest {
     }
 
     @Test
-    public void SetExperienceTest() {
+    public void setExperienceTest() {
         engineer.setExperience(9);
         assertEquals("The experience is wrong", 9, engineer.getExperience());
     }

@@ -1,9 +1,8 @@
-package homework.day15;
+package tests.ui;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -12,12 +11,12 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 
 public class DemoQaTest {
-    WebDriver driver = new ChromeDriver();
+    WebDriver driver;
 
     @BeforeTest
     public void initialize() {
-        driver.get("https://demoqa.com/select-menu");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.get("https://demoqa.com/select-menu");
     }
 
     @Test

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="EngineerTestNG" verbose="3">
+    <test name="testing">
+        <classes>
+            <class name="tests.unit.testng.ManualEngineerTestNgTest"/>
+            <class name="tests.unit.testng.AutomatedEngineerTestNgTest"/>
+            <class name="tests.unit.testng.EngineerTestNG"/>
+        </classes>
+    </test>
+</suite>
