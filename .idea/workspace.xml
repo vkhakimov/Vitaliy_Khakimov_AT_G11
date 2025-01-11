@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="add classwork day18">
-      <change afterPath="$PROJECT_DIR$/src/test/java/driver/WebDriverSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SearchResultsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/people/AutomatedEngineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/AutomatedEngineer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/people/ManualEngineer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/ManualEngineer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomatedEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/junit/AutomatedEngineerJunitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomatedEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/testng/AutomatedEngineerTestNgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EngineerTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/testng/EngineerTestNG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EngineerUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/junit/EngineerUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ManualEngineerJunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/junit/ManualEngineerJunitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ManualEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/testng/ManualEngineerTestNgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/BookingLondonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/BookingLondonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/BookingParisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/BookingParisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/BookingTooltipsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/BookingTooltipsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/DemoQaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/DemoQaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/TutorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ui/TutorialTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/unit/testng/testng.xml" afterDir="false" />
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="add homework day16">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/EngineersRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +130,7 @@
       <recent name="homework.playground.essence.craft" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BookingParisTest.parisTest">
+  <component name="RunManager" selected="JUnit.EngineersRunner">
     <configuration name="AutomatedEngineerJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
@@ -165,16 +146,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EngineerUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EngineersRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.unit.junit.*" />
+          <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.unit.junit" />
-      <option name="MAIN_CLASS_NAME" value="tests.unit.junit.EngineerUnitTest" />
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.EngineersRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EngineersRunner" />
         <item itemvalue="TestNG.BookingParisTest.parisTest" />
         <item itemvalue="TestNG.BookingLondonTest.londonTest" />
         <item itemvalue="TestNG.BookingLondonTest" />
         <item itemvalue="JUnit.AutomatedEngineerJunitTest" />
-        <item itemvalue="JUnit.EngineerUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735350066809</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add homework day16">
+      <option name="closed" value="true" />
+      <created>1736560478836</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736560478836</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -457,7 +446,8 @@
     <MESSAGE value="Add tasks for day 12" />
     <MESSAGE value="Add classwork for day 15" />
     <MESSAGE value="Add tutorial task for day 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tutorial task for day 15" />
+    <MESSAGE value="add homework day16" />
+    <option name="LAST_COMMIT_MESSAGE" value="add homework day16" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
