@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="Add tutorial task for day 15">
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingLondonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingParisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/BookingTooltipsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/homework/day15/DemoQaTest.java" afterDir="false" />
+    <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="add runners for engineers tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/selenide/DemoQaSelenideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/BookingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/homework/day15/LondonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/AutomatedEngineerTestNgTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/people/ManualEngineerTestNgTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/people/ManualEngineerTestNgTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="homework_day15" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +49,7 @@
     "Application.ArrayListTask3.executor": "Run",
     "Application.ArrayTask.executor": "Run",
     "Application.ArrayTask2.executor": "Run",
+    "Application.DemoQaSelenideTest.executor": "Run",
     "Application.FlyableProcessorRunner.executor": "Run",
     "Application.GenericContainerRunner.executor": "Run",
     "Application.GenericMethodsInGenericClassTRunner.executor": "Run",
@@ -79,9 +74,12 @@
     "Application.ThreadsTask.executor": "Run",
     "Application.TransportableProcessorRunner.executor": "Run",
     "Application.WaitTask.executor": "Run",
+    "JUnit.AutomatedEngineerJunitTest,testSkill and 4 more.executor": "Run",
     "JUnit.AutomatedEngineerJunitTest.executor": "Run",
     "JUnit.BookingTest.executor": "Run",
     "JUnit.EngineerUnitTest.executor": "Run",
+    "JUnit.EngineersRunner.executor": "Run",
+    "JUnit.ManualEngineerJunitTest.executor": "Run",
     "JUnit.ManualEngineerJunitTest.testConstructorAndProperties.executor": "Run",
     "JUnit.TutorialTest.executor": "Run",
     "Maven.Unknown [clean].executor": "Run",
@@ -97,8 +95,15 @@
     "TestNG.AutomatedEngineerTestNgTest.testAge.executor": "Run",
     "TestNG.AutomatedEngineerTestNgTest.testConstructorAndProperties.executor": "Run",
     "TestNG.AutomatedEngineerTestNgTest.testSkill.executor": "Run",
+    "TestNG.BookingLondonTest.executor": "Run",
+    "TestNG.BookingLondonTest.londonTest.executor": "Run",
+    "TestNG.BookingParisTest.parisTest.executor": "Run",
     "TestNG.BookingTest.actionsTest.executor": "Run",
     "TestNG.BookingTest.parisTest.executor": "Run",
+    "TestNG.BookingTooltipsTest.actionsTest.executor": "Run",
+    "TestNG.BookingTooltipsTest.executor": "Run",
+    "TestNG.DemoQaSelenideTest.carsSelectTest.executor": "Run",
+    "TestNG.DemoQaSelenideTest.oldSelectTest.executor": "Run",
     "TestNG.DemoQaTest.executor": "Debug",
     "TestNG.EngineerTestNG.executor": "Run",
     "TestNG.EngineerTestNG.testGetAge.executor": "Run",
@@ -108,7 +113,7 @@
     "TestNG.ManualEngineerTestNgTest.executor": "Run",
     "TestNG.TutorialTest.executor": "Run",
     "TestNG.TutorialTest.tutorialTest.executor": "Run",
-    "git-widget-placeholder": "homework__day15",
+    "git-widget-placeholder": "homework__day16",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11/src/test/java/classwork/day15",
     "project.structure.last.edited": "Modules",
@@ -121,6 +126,9 @@
       <recent name="$PROJECT_DIR$/src/test/java/classwork/day15" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/tests/unit/testng" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$/src/test/java/homework/day15" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -128,51 +136,50 @@
       <recent name="homework.day7" />
       <recent name="homework.playground.essence.craft" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests.ui.selenide" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ManualEngineerJunitTest">
-    <configuration name="ManualEngineerJunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DemoQaSelenideTest.carsSelectTest">
+    <configuration name="DemoQaSelenideTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tests.ui.selenide.DemoQaSelenideTest" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="people.*" />
+          <option name="PATTERN" value="tests.ui.selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.ManualEngineerJunitTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EngineersRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vitaliy_Khakimov_AT_G11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.EngineersRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomatedEngineerTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingParisTest.parisTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="people.*" />
+          <option name="PATTERN" value="tests.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerTestNgTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutomatedEngineerTestNgTest.testAge" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Vitaliy_Khakimov_AT_G11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="people.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerTestNgTest" />
-      <option name="METHOD_NAME" value="testAge" />
+      <option name="PACKAGE_NAME" value="tests.ui" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.BookingParisTest" />
+      <option name="METHOD_NAME" value="parisTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -180,17 +187,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutomatedEngineerTestNgTest.testSkill" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoQaSelenideTest.carsSelectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="people.*" />
+          <option name="PATTERN" value="tests.ui.selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.AutomatedEngineerTestNgTest" />
-      <option name="METHOD_NAME" value="testSkill" />
+      <option name="PACKAGE_NAME" value="tests.ui.selenide" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.selenide.DemoQaSelenideTest" />
+      <option name="METHOD_NAME" value="carsSelectTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -198,17 +205,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManualEngineerTestNgTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoQaSelenideTest.oldSelectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="people.*" />
+          <option name="PATTERN" value="tests.ui.selenide.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="people" />
-      <option name="MAIN_CLASS_NAME" value="people.ManualEngineerTestNgTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.ui.selenide" />
+      <option name="MAIN_CLASS_NAME" value="tests.ui.selenide.DemoQaSelenideTest" />
+      <option name="METHOD_NAME" value="oldSelectTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -217,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ManualEngineerJunitTest" />
-        <item itemvalue="TestNG.ManualEngineerTestNgTest" />
-        <item itemvalue="TestNG.AutomatedEngineerTestNgTest" />
-        <item itemvalue="TestNG.AutomatedEngineerTestNgTest.testAge" />
-        <item itemvalue="TestNG.AutomatedEngineerTestNgTest.testSkill" />
+        <item itemvalue="TestNG.DemoQaSelenideTest.carsSelectTest" />
+        <item itemvalue="TestNG.DemoQaSelenideTest.oldSelectTest" />
+        <item itemvalue="Application.DemoQaSelenideTest" />
+        <item itemvalue="JUnit.EngineersRunner" />
+        <item itemvalue="TestNG.BookingParisTest.parisTest" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +418,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735350066809</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add homework day16">
+      <option name="closed" value="true" />
+      <created>1736560478836</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736560478836</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add runners for engineers tests">
+      <option name="closed" value="true" />
+      <created>1736561462557</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736561462557</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,7 +463,9 @@
     <MESSAGE value="Add tasks for day 12" />
     <MESSAGE value="Add classwork for day 15" />
     <MESSAGE value="Add tutorial task for day 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tutorial task for day 15" />
+    <MESSAGE value="add homework day16" />
+    <MESSAGE value="add runners for engineers tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add runners for engineers tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>

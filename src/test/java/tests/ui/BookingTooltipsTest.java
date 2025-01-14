@@ -1,4 +1,4 @@
-package homework.day15;
+package tests.ui;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,11 +6,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class BookingTooltipsTest {
+import java.time.Duration;
 
+public class BookingTooltipsTest {
     WebDriver driver;
+
+    @BeforeTest
+    public void initialize() {
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.get("https://www.booking.com/");
+    }
 
     @Test
     public void actionsTest() {

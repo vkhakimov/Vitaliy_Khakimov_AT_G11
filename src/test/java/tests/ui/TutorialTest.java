@@ -1,4 +1,4 @@
-package homework.day15;
+package tests.ui;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -15,7 +15,6 @@ import java.time.Duration;
 import java.util.List;
 
 public class TutorialTest {
-
     WebDriver driver;
 
     @BeforeTest

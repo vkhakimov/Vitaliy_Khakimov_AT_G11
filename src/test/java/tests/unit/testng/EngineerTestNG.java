@@ -1,7 +1,10 @@
-package people;
+package tests.unit.testng;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import people.AutomatedEngineer;
+import people.Engineer;
+import people.ManualEngineer;
 
 import static org.testng.Assert.assertEquals;
 
@@ -9,8 +12,8 @@ public class EngineerTestNG {
     @DataProvider(name = "engineer")
     public Object[][] provideEngineer() {
         return new Object[][]{
-                {new ManualEngineer(18, 5, 15), 30},
-                {new AutomatedEngineer(18, 5, 15), 45}
+                {new ManualEngineer(18, 15), 30},
+                {new AutomatedEngineer(18, 15), 45}
         };
     }
 
