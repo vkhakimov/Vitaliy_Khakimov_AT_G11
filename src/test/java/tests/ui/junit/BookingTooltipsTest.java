@@ -1,20 +1,22 @@
-package tests.ui;
+package tests.ui.junit;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import java.time.Duration;
+
+import static org.testng.AssertJUnit.assertEquals;
 
 public class BookingTooltipsTest {
     WebDriver driver;
 
-    @BeforeTest
+    @Before
     public void initialize() {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.get("https://www.booking.com/");
@@ -43,10 +45,10 @@ public class BookingTooltipsTest {
 
         WebElement languageTooltip = driver.findElement(By.id(":r6:"));
         String languageTooltipText = languageTooltip.getText().toLowerCase();
-        Assert.assertEquals(languageTooltipText, "select your language", "Text doesn't match");
+        assertEquals(languageTooltipText, "select your language", "Text doesn't match");
     }
 
-    @AfterTest
+    @After
     public void shutDown() {
         driver.quit();
     }

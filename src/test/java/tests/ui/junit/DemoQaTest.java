@@ -1,25 +1,25 @@
-package tests.ui;
+package tests.ui.junit;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import java.time.Duration;
 
 public class DemoQaTest {
     WebDriver driver;
 
-    @BeforeTest
+    @Before
     public void initialize() {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.get("https://demoqa.com/select-menu");
     }
 
-    @Test
+    @org.junit.Test
     public void oldSelectTest() {
         WebElement element = driver.findElement(By.id("oldSelectMenu"));
 
@@ -35,7 +35,7 @@ public class DemoQaTest {
         select.selectByValue("audi");
     }
 
-    @AfterTest
+    @After
     public void shutDown() {
         driver.quit();
     }

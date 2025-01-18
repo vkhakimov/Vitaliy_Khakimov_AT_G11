@@ -1,4 +1,4 @@
-package tests.ui;
+package tests.ui.testng;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

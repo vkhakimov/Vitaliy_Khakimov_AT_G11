@@ -5,6 +5,11 @@
             <class name="tests.unit.testng.ManualEngineerTestNgTest"/>
             <class name="tests.unit.testng.AutomatedEngineerTestNgTest"/>
             <class name="tests.unit.testng.EngineerTestNG"/>
+            <class name="tests.ui.testng.BookingLondonTest"/>
+            <class name="tests.ui.testng.BookingParisTest"/>
+            <class name="tests.ui.testng.BookingTooltipsTest"/>
+            <class name="tests.ui.testng.DemoQaTest"/>
+            <class name="tests.ui.testng.TutorialTest"/>
         </classes>
     </test>
 </suite>
