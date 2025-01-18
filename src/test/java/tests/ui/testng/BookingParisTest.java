@@ -1,4 +1,4 @@
-package tests.ui;
+package tests.ui.testng;
 
 import driver.WebDriverSingleton;
 import org.openqa.selenium.By;
