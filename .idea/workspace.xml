@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edf34880-d31f-4574-9270-606d3ef4b7ab" name="Changes" comment="add runners for engineers tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ui/selenide/DemoQaSelenideTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day20/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day20/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day20/Recipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day20/RequestSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day20/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classwork/day20/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/recipe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/recipe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/recipe.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -29,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_day15" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +64,7 @@
     "Application.GenericMethodsInGenericClassTwoParamsRunner.executor": "Run",
     "Application.HashMapTask.executor": "Run",
     "Application.Heavy.executor": "Run",
+    "Application.RequestSpec.executor": "Run",
     "Application.Runner.executor": "Run",
     "Application.ScannerTask.executor": "Run",
     "Application.SeleniumTest.executor": "Run",
@@ -113,7 +122,7 @@
     "TestNG.ManualEngineerTestNgTest.executor": "Run",
     "TestNG.TutorialTest.executor": "Run",
     "TestNG.TutorialTest.tutorialTest.executor": "Run",
-    "git-widget-placeholder": "homework__day16",
+    "git-widget-placeholder": "classwork__day20",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vkhakimov/IdeaProjects/Vitaliy_Khakimov_AT_G11/src/test/java/classwork/day15",
     "project.structure.last.edited": "Modules",
@@ -140,7 +149,7 @@
       <recent name="tests.ui.selenide" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DemoQaSelenideTest.carsSelectTest">
+  <component name="RunManager" selected="Application.RequestSpec">
     <configuration name="DemoQaSelenideTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tests.ui.selenide.DemoQaSelenideTest" />
       <module name="Vitaliy_Khakimov_AT_G11" />
@@ -154,35 +163,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EngineersRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RequestSpec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day20.RequestSpec" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="classwork.day20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.EngineersRunner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingParisTest.parisTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classwork.day20.Runner" />
       <module name="Vitaliy_Khakimov_AT_G11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.ui.*" />
+          <option name="PATTERN" value="classwork.day20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.ui" />
-      <option name="MAIN_CLASS_NAME" value="tests.ui.BookingParisTest" />
-      <option name="METHOD_NAME" value="parisTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RequestSpec" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="TestNG.DemoQaSelenideTest.carsSelectTest" />
         <item itemvalue="TestNG.DemoQaSelenideTest.oldSelectTest" />
         <item itemvalue="Application.DemoQaSelenideTest" />
-        <item itemvalue="JUnit.EngineersRunner" />
-        <item itemvalue="TestNG.BookingParisTest.parisTest" />
       </list>
     </recent_temporary>
   </component>
